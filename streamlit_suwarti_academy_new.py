@@ -307,7 +307,7 @@ if user_q:
         st.markdown(f"<div class='bubble-user'>{user_q}</div>", unsafe_allow_html=True)
 
     if not api_key:
-        answer = "Masukkan GEMINI API Key di sidebar)."
+        answer = "Masukkan GEMINI API Key di sidebar."
     elif not GENAI_OK:
         answer = "Paket `google-genai` belum terpasang. Jalankan: pip install google-genai"
     else:

@@ -1,0 +1,22 @@
+# --- App & UI ---
+streamlit==1.38.0
+
+# --- PDF parsing ---
+PyPDF2==3.0.1
+
+# --- Vector DB (Chroma) + SQLite shim for Streamlit Cloud ---
+chromadb==0.5.5
+pysqlite3-binary==0.5.2.post3
+
+# --- LangChain (text splitter) ---
+langchain==0.2.12
+
+# --- Google Gemini SDK ---
+google-genai==0.3.0
+
+# --- Env loader ---
+python-dotenv==1.0.1
+
+# --- Common deps (often required by the libs above) ---
+numpy==1.26.4
+tqdm==4.66.5

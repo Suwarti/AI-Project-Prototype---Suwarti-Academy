@@ -299,7 +299,7 @@ for m in st.session_state["messages"]:
         css = "bubble-user" if m["role"] == "user" else "bubble-bot"
         st.markdown(f"<div class='{css}'>{ensure_utf8(m['content'])}</div>", unsafe_allow_html=True)
 
-user_q = st.chat_input("Tulis pertanyaan kamu… (contoh: jelaskan alur belajar data science)")
+user_q = st.chat_input("Tulis pertanyaan kamu…")
 if user_q:
     user_q = ensure_utf8(user_q)
     st.session_state["messages"].append({"role": "user", "content": user_q})

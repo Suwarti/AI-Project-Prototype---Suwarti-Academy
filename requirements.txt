@@ -1,0 +1,7 @@
+streamlit
+PyPDF2
+chromadb
+pysqlite3-binary
+google-genai>=1.0.0
+langchain>=0.1.0
+python-dotenv

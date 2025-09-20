@@ -292,7 +292,7 @@ if rebuild:
             st.error(ensure_utf8(f"Gagal index dari folder: {e}"))
 
 # ---------------- Chat UI ----------------
-st.subheader("💬 Tanya Materi Suwarti Academy")
+st.subheader("Ask Suwarti Academy")
 
 for m in st.session_state["messages"]:
     with st.chat_message(m["role"]):

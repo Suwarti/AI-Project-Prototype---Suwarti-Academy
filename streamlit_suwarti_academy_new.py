@@ -55,7 +55,7 @@ except Exception:
     GENAI_OK = False
 
 # ---------------- UI & Style ----------------
-st.set_page_config(page_title="Suwarti Academy - PDF RAG", page_icon="📚", layout="wide")
+st.set_page_config(page_title="Suwarti Academy", page_icon="📚", layout="wide")
 st.markdown(
     """
     <style>
@@ -69,8 +69,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("RAG PDF • Suwarti Academy")
-st.caption("Local Knowledge Assistant (Chroma + Gemini). Prioritizes your PDFs — falls back to model if needed.")
+st.title("AI Project Prototype - Suwarti Academy")
+st.caption("LLM Based Tools and Gemini API Integration")
 
 # ---------------- Helpers ----------------
 def get_api_key() -> str:
